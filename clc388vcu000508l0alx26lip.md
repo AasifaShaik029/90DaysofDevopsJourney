@@ -1,4 +1,4 @@
-# Day 2-Linux Fundamentals
+# Day 2 : Linux Fundamentals
 
 [Batch II - Advance DevOps - Zero to Hero (Dec'22) - Course (](https://www.trainwithshubham.com/s/courses/634d4d55e4b06642a8ba423d/take#63a6d88fe4b0d591a4f51f24)[trainwithshubham.com](http://trainwithshubham.com)[)](https://www.trainwithshubham.com/s/courses/634d4d55e4b06642a8ba423d/take#63a6d88fe4b0d591a4f51f24)
 
