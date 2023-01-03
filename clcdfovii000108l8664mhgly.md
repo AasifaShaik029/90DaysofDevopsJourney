@@ -311,3 +311,9 @@ examples:
 **awk command:**
 
 [Top 20 AWK Command in UNIX/LINUX with Examples \[Updated\] (](https://hackr.io/blog/awk-command-unix-linux-examples)[hackr.io](http://hackr.io)[)](https://hackr.io/blog/awk-command-unix-linux-examples)
+
+Used to make segments of the output. $1 prints the first column of df - H output.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672728001723/fc19d61d-e501-4281-a842-94de2c6ca208.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672728031142/3a24d5c6-11b3-4fcc-b78c-5cc9d21d00dc.png align="center")
