@@ -1,4 +1,4 @@
-# Day 1 -Getting started with Devops
+# Day 1 : Getting started with DevOps
 
 Hi Everyone! :)
 
