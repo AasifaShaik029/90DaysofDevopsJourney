@@ -2,7 +2,26 @@
 
 Hello Everyone!
 
-Please find below concepts on Shell Scripting.
+This is Day 4 learning. It is a very Beginner friendly Note. Give it a read :)
+
+Please find below the concepts this article covers on Shell Scripting.
+
+1. Few Basic Commands
+    
+2. Checking file and directory exists or not
+    
+3. Writing a script
+    
+4. Comments
+    
+5. Arguments
+    
+6. File Creation
+    
+
+7\. if, elif, and for loop
+
+---
 
 #To check which flavor of Linux you are using
 
