@@ -145,7 +145,13 @@ $1 represents command line argument, when you use $1 in the script it mean you n
 
 $# - count of arguments
 
-$@ - displays all the arguments
+$$-PID of the script
+
+$\*-Represent all the arguments as a single string
+
+$@ - Same as $∗, but differ when enclosed in (")
+
+$?-Represent last return code
 
 **Example:**
 
