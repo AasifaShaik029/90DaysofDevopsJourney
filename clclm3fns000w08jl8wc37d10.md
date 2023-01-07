@@ -62,7 +62,7 @@ Shift in while
 
 ---
 
-**Types of Operators :**
+### **Types of Operators :**
 
 Arithmetic Operations:
 
@@ -150,7 +150,9 @@ fi
 
 ---
 
-**Functions:** [Unix / Linux - Shell Functions (](https://www.tutorialspoint.com/unix/unix-shell-functions.htm#:~:text=Unix%20%2F%20Linux%20-%20Shell%20Functions%201%20Creating,Functions%20...%205%20Function%20Call%20from%20Prompt%20)[tutorialspoint.com](http://tutorialspoint.com)[)](https://www.tutorialspoint.com/unix/unix-shell-functions.htm#:~:text=Unix%20%2F%20Linux%20-%20Shell%20Functions%201%20Creating,Functions%20...%205%20Function%20Call%20from%20Prompt%20)
+### **Functions:**
+
+[Unix / Linux - Shell Functions (](https://www.tutorialspoint.com/unix/unix-shell-functions.htm#:~:text=Unix%20%2F%20Linux%20-%20Shell%20Functions%201%20Creating,Functions%20...%205%20Function%20Call%20from%20Prompt%20)[tutorialspoint.com](http://tutorialspoint.com)[)](https://www.tutorialspoint.com/unix/unix-shell-functions.htm#:~:text=Unix%20%2F%20Linux%20-%20Shell%20Functions%201%20Creating,Functions%20...%205%20Function%20Call%20from%20Prompt%20)
 
 **Creating Functions:**
 
