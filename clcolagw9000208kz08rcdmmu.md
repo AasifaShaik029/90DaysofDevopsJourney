@@ -74,7 +74,7 @@ When you send from SA to local repo then it will create master branch by default
 
 ---
 
-### **Understanding Git and GitHub in a practical way** 🙂
+### **Understanding Git and GitHub in a practical way**
 
 Make sure you have GitHub account. Install git bash.
 
@@ -112,7 +112,7 @@ You cant restore empty folder so add some files into it. Then add and commit and
 
 ---
 
-### Setting Global username and email for GIT locally 🙂
+### Setting Global username and email for GIT locally
 
 To track who made commits, we can use **git log,** there you can see the author who made what commit
 
