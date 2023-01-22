@@ -1,5 +1,7 @@
 # 2 Mini Projects using Docker
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674368111553/f31b7916-b83d-44d6-b592-508ecc58cb65.png align="center")
+
 ### 🍁 Deploying Python application
 
 Project Name:
@@ -18,17 +20,7 @@ making a new Dockerfile. Removed existing docker file
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674320451628/62ca48c9-42e5-42af-b2be-0e09b88654b1.png align="center")
 
-1. ```plaintext
-    FROM pyhton:3.9
-    
-    COPY . .
-    
-    RUN pip install -r requirement.txt
-    
-    EXPOSE 8000
-    
-    CMD ["pyhton" "manage.py" "runserver" "0.0.0.0:8000"]
-    ```
+1. `FROM pyhton:3.9 COPY . . RUN pip install -r requirement.txt EXPOSE 8000 CMD ["pyhton" "manage.py" "runserver" "0.0.0.0:8000"]`
     
     1. `FROM python:3.9`: This command sets the base image for the container. In this case, it specifies that the container should be based on the official Python 3.9 image. This image will include a version of Python 3.9 and the necessary libraries to run it.
         
@@ -103,7 +95,7 @@ Make sure that 8000 port is added as a rule in security group.
 
 `CMD` specifies the command to run when the container starts. In this case, it is running the command `node app.js` which runs the node.js script.
 
-### Build the image from the docker file and run the container from the image
+**Build the image from the docker file and run the container from the image**
 
 🧊 Build the image from the docker file using
 
