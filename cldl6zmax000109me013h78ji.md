@@ -22,11 +22,11 @@ We are using docker-compose.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675055198669/ea7daa1f-5245-4ac2-a670-14475bbc2c4c.png align="center")
 
-### Steps
+**Steps**
 
-### Code--Build--Deliver
+**Code--Build--Deliver**
 
-### Code
+**Code**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675060495686/e2413dee-2b0c-4c53-a8e3-838d9396cb64.png align="center")
 
@@ -38,7 +38,7 @@ Let's link my GitHub repo URL of the project. Here we are not adding any credent
 
 Project repo branch is main. so give main as branch name.
 
-### Build
+**Build**
 
 Give commands to execute.
 
@@ -54,7 +54,7 @@ and build the application.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675055487885/6e6d6c0f-d683-4344-879a-6da37b110755.png align="center")
 
-### Deliver
+**Deliver**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1675055721810/09641545-b307-46c2-884b-7b70b63c1e68.png align="center")
 
