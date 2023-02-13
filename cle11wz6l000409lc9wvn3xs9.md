@@ -84,7 +84,8 @@ Install minikube (type minikube start ) minikube will install kubernetes for us.
 ```plaintext
 
 #Install mini kube by following command
-curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 sudo install minikube-linux-amd64 /usr/local/bin/minikube
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 
+sudo install minikube-linux-amd64 /usr/local/bin/minikube
 
 #start it by 
 sudo usermod -aG docker $USER && newgrp docker
