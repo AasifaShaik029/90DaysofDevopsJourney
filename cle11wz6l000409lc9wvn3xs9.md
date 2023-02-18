@@ -257,7 +257,7 @@ deleting pod
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676023293995/e4aaf60b-971a-44f0-9a16-ae5f01ccc6ac.png align="center")
 
-### Deployment file:
+### Deployment file: (update of container)
 
 Why docker and pod used in production?
 
