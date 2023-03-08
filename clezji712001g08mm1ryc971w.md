@@ -1,8 +1,8 @@
 ---
-title: "Reddit Clone App on Kubernetes with Ingress"
+title: "Project : Reddit Clone App on Kubernetes with Ingress"
 datePublished: Wed Mar 08 2023 10:31:16 GMT+0000 (Coordinated Universal Time)
 cuid: clezji712001g08mm1ryc971w
-slug: reddit-clone-app-on-kubernetes-with-ingress
+slug: project-reddit-clone-app-on-kubernetes-with-ingress
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1678271375856/e58e0e61-a6ff-4adb-a86e-f32703a299b0.png
 tags: aws, kubernetes, devops, reddit, ingress
 
