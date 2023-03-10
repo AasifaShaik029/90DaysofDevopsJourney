@@ -33,7 +33,7 @@ It includes what services are started, what are services installed, what needs t
 
 Examples of Configuration Management tools: Ansible, Puppet, chef
 
-Note: Ansible is both IAC and Configuration Management tool.
+Note: Terraform is an IAC tool whereas ansible is a tool that manages this IAC.
 
 IAC and Configuration Management tools can help organizations to improve the efficiency, reliability, and security of their IT infrastructure while also making it more agile and scalable.
 
@@ -261,7 +261,6 @@ Now let's install nginx in all the servers using playbook.
         name: nginx
         state: started
         enabled: yes
-
 ```
 
 ```plaintext
