@@ -364,6 +364,10 @@ Now lets deploy one simple HTML application using Ansible. Maintain evrything in
 
 **deploy\_webpage.yaml**
 
+The Ansible playbook is installing the Nginx web server and then deploying an HTML file (`index.html`) to the server's default web root directory (`/var/www/html`). Once the `index.html` file is in place, Nginx will serve it as a webpage when accessed through a web browser using the server's IP address or hostname.
+
+In other words, the `index.html` file is being served by the Nginx web server, making it accessible via HTTP or HTTPS to clients such as web browsers.
+
 ```plaintext
 -
  name: this is a  simple html project
