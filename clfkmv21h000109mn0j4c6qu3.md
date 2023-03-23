@@ -1,8 +1,8 @@
 ---
-title: "Part - 2: Automated Deployment using Code Pipeline"
+title: "AWS Project Part - 2: Automated Deployment using Code Pipeline"
 datePublished: Thu Mar 23 2023 04:48:25 GMT+0000 (Coordinated Universal Time)
 cuid: clfkmv21h000109mn0j4c6qu3
-slug: part-2-automated-deployment-using-code-pipeline
+slug: aws-project-part-2-automated-deployment-using-code-pipeline
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1679546840461/27d516f2-71c1-40f1-8e93-a53cd41cc545.png
 tags: aws, projects, devops
 
