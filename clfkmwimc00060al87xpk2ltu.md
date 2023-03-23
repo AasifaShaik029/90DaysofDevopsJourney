@@ -1,8 +1,8 @@
 ---
-title: "CI/CD Pipeline Integration with AWS CodeCommit and CodeBuild."
+title: "AWS Project Part 1 :CI/CD Pipeline Integration with AWS CodeCommit and CodeBuild."
 datePublished: Thu Mar 23 2023 04:49:33 GMT+0000 (Coordinated Universal Time)
 cuid: clfkmwimc00060al87xpk2ltu
-slug: cicd-pipeline-integration-with-aws-codecommit-and-codebuild
+slug: aws-project-part-1-cicd-pipeline-integration-with-aws-codecommit-and-codebuild
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1679546939052/749546a0-ba41-42ff-aebd-b5d77044e6d2.png
 tags: aws, projects, devops
 
