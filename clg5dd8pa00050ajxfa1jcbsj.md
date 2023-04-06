@@ -1,8 +1,8 @@
 ---
-title: "(3) Part 2 - AWS Hands-on | Network Load Balancer | Gateway Load Balancer | Elastic Load Balancer |"
+title: "(3) Part 2 - AWS Hands-on | Network Load Balancer |  SSL Certificates"
 datePublished: Thu Apr 06 2023 17:05:47 GMT+0000 (Coordinated Universal Time)
 cuid: clg5dd8pa00050ajxfa1jcbsj
-slug: 3-part-2-aws-hands-on-network-load-balancer-gateway-load-balancer-elastic-load-balancer
+slug: 3-part-2-aws-hands-on-network-load-balancer-ssl-certificates
 tags: aws, devops
 
 ---
