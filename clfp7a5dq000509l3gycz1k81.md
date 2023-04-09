@@ -1,5 +1,5 @@
 ---
-title: "1-AWS SAA Hands-on: Private and Public IP (IPV4)|Elastci IP"
+title: "( 1 )-AWS SAA Hands-on: Private and Public IP (IPV4)|Elastci IP"
 datePublished: Sun Mar 26 2023 09:31:06 GMT+0000 (Coordinated Universal Time)
 cuid: clfp7a5dq000509l3gycz1k81
 slug: 1-aws-saa-hands-on-private-and-public-ip-ipv4elastci-ip
