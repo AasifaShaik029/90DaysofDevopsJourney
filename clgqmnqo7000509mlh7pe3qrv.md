@@ -147,6 +147,8 @@ This is called Automatic failover recovery.
 
 Change the SG to 3306 to anywhere.
 
+### Connecting using SQL electron
+
 To connect the database i will use SQL electron.
 
 [Internet - Servers - Database Utils Downloads (](https://www.softpedia.com/get/Internet/Servers/Database-Utils/?utm_source=spd&utm_campaign=postdl_redir)[softpedia.com](http://softpedia.com)[)](https://www.softpedia.com/get/Internet/Servers/Database-Utils/?utm_source=spd&utm_campaign=postdl_redir)
