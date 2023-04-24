@@ -118,6 +118,14 @@ This is called Automatic failover recovery.
     
 6. Manual failure of primary ( when you are doing maintenance of primary)
     
+    ### The difference between Read Replicas and Multi-AZ
+    
+    Read replicas and Multi-AZ (Availability Zone) are two different mechanisms used in database replication to improve data availability and durability in Amazon Web Services (AWS) environment.
+    
+    Read Replicas: These are the copies of the primary database. Read replicas are called "read" replicas because their primary purpose is to handle read requests from the application, while the primary database handles write requests. changes will be asynchronously replicated. With asynchronous replication, changes made to the primary database are asynchronously propagated to the read replicas. This means that the primary database does not wait for confirmation that the changes have been made to the read replicas before proceeding with the next operation. However, read replicas are not designed for failover or disaster recovery, and they do not provide automatic failover or recovery.
+    
+    \--&gt;Multi-AZ is a feature that provides high availability for the primary database by automatically replicating the data to a standby database in a different Availability Zone (AZ) within the same region. Multi-AZ is designed to provide automatic failover and data durability, ensuring that your database remains available even if the primary database becomes unavailable.
+    
 
 ### Hands-On
 
