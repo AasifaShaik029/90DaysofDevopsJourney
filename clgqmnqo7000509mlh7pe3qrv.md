@@ -124,10 +124,16 @@ This is called Automatic failover recovery.
     
     Read Replicas: These are the copies of the primary database. Read replicas are called "read" replicas because their primary purpose is to handle read requests from the application, while the primary database handles write requests. changes will be asynchronously replicated. With asynchronous replication, changes made to the primary database are asynchronously propagated to the read replicas. This means that the primary database does not wait for confirmation that the changes have been made to the read replicas before proceeding with the next operation. However, read replicas are not designed for failover or disaster recovery, and they do not provide automatic failover or recovery.
     
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1682320956736/5995e841-e172-4f80-8fb6-cba89378cfd8.png align="center")
+    
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1682322486733/5c2280b6-895d-4250-83c7-d8a894645718.png align="center")
+    
     \--&gt;Multi-AZ is a feature that provides high availability for the primary database by automatically replicating the data to a standby database in a different Availability Zone (AZ) within the same region. Multi-AZ is designed to provide automatic failover and data durability, ensuring that your database remains available even if the primary database becomes unavailable.
     
-
-### Hands-On
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1682322697700/626cf481-8be9-45ed-b3c2-354bf3dde209.png align="center")
+    
+    ### Hands-On
+    
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1681973843146/0e6d0877-eb5a-48a8-bed9-16226397ca46.png align="center")
 
