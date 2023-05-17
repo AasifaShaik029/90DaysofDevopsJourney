@@ -51,7 +51,6 @@ sudo apt-get install node-typescript -y
 
 # This command executes the "build" script defined in the package.json file of our project
 npm run build
-
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1684256180476/4ad48ba5-7fb1-4d96-8a45-95746ff6ec8c.png align="center")
@@ -140,7 +139,7 @@ sudo systemctl status nginx
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1684257042255/f2b233ea-fe8c-4444-a1b8-3adefbbd7143.png align="center")
 
-### Step 4 : Check if app is running on the default port of Nginx (80)
+### Step 3 : Check if app is running on the default port of Nginx (80)
 
 Our Nginx server is running. Now lets check if app is deployed using it.
 
