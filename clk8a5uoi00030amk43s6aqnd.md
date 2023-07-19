@@ -12,7 +12,23 @@ Lets deploy one Java based web app called registration app using Tomcat applicat
 
 Follow below steps to the deploying this app.
 
-App URL : [AasifaShaik029/registration-app (](https://github.com/AasifaShaik029/registration-app)[github.com](http://github.com)[)](https://github.com/AasifaShaik029/registration-app)
+🪄Launching Jenkins on EC2 Instance: The first step was setting up an EC2 instance on AWS and installing Jenkins to facilitate continuous integration and deployment.
+
+🪄Installing and Configuring Maven: To manage dependencies and build the project, I installed Maven, a popular build automation tool, and configured it to ensure smooth project compilation.
+
+🪄Setting up JDK: Java Development Kit (JDK) was installed to enable Java development on the EC2 instance.
+
+🪄Integrating Jenkins with GitHub: I connected Jenkins to my GitHub repository, allowing it to trigger automated builds and deployments whenever new code changes were pushed.
+
+🪄Setup Tomcat Server 🐈: Next, I installed and configured Tomcat, a widely used web server, and servlet container, on the same EC2 instance to host our JSP application.
+
+🪄Integrating Tomcat with Jenkins: I integrated Tomcat with Jenkins, enabling seamless application deployment to the Tomcat server during the build process.
+
+🪄Deploying the JSP App to Tomcat: Leveraging Jenkins, I set up the deployment process to automatically push the JSP web app to Tomcat after successful builds.
+
+🪄Poll SCM: To ensure timely updates, I configured Jenkins to poll the GitHub repository for changes periodically, triggering builds and deployments as needed.
+
+Project App URL : [AasifaShaik029/registration-app (](https://github.com/AasifaShaik029/registration-app)[github.com](http://github.com)[)](https://github.com/AasifaShaik029/registration-app)
 
 ### Launch Jenkins using ec2 instance
 
@@ -180,7 +196,6 @@ vim conf/tomcat-users.xml
    ls
    ./shutdown.sh
     ./startup.sh
-   
 ```
 
 ### Integrating Tomcat server with Jenkins
