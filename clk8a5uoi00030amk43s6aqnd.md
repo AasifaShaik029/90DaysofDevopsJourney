@@ -1,8 +1,8 @@
 ---
-title: "Continuous Deployment project: Creating a Maven Tomcat CI/CD Pipeline"
+title: "Deployment of the JSP app in Tomcat using Jenkins and Maven"
 datePublished: Tue Jul 18 2023 12:38:11 GMT+0000 (Coordinated Universal Time)
 cuid: clk8a5uoi00030amk43s6aqnd
-slug: continuous-deployment-project-creating-a-maven-tomcat-cicd-pipeline
+slug: deployment-of-the-jsp-app-in-tomcat-using-jenkins-and-maven
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1689683824801/b389f5dc-58bb-4e7d-96af-ed54643f696f.jpeg
 tags: maven, devops, tomcat, ci-cd, cicd-pipelines
 
