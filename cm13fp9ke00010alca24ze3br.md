@@ -208,3 +208,96 @@ Under properties —&gt; static website hosting —&gt; copu URL
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726396013455/8d2fa5c5-4f4b-4f59-ae3b-82e7a114dc1c.png align="center")
 
 In this tutorial, we used Terraform to deploy an Angular web application to an S3 bucket. This is a great way to automate your deployment process and ensure your app is always available via the S3 static site hosting. With the added advantage of using Terraform, you can now version control your infrastructure and collaborate with your team effortlessly.
+
+# Appendix
+
+## Terraform installation
+
+Terraform is required to manage infrastructure using code. Follow these steps to install it in Windows.
+
+Goto below URL and select 386 binary download file if your processor is intel.
+
+[Install | Terraform | HashiCorp Developer](https://developer.hashicorp.com/terraform/install)
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726404980322/3d59539a-a91f-4af7-a8c0-25545f3cb5dd.png align="center")
+
+Place the compressed downloaded file in one folder and unzip the file.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726405038816/d8ab5f25-00bd-426b-9c99-f95bfb1b4f41.png align="center")
+
+go inside the extracted folder and copy the terraform exe file path and paste in system environmental variables of your system as shown below and click ok.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726405112962/1f0a3530-e771-4ea8-8e63-7d6854eca73a.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726405173497/9e9e7458-4314-450a-b7ab-fead6a8fec68.png align="center")
+
+Now Terraform is available in your system. To verify if it is installed, type terraform -v command to see the version.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726405256237/71471cc7-7e00-4c5c-a476-1573997b6cc6.png align="center")
+
+Terraform successfully got installed. 💁‍♀️
+
+## AWS CLI Installation and Configuration
+
+The AWS CLI is needed to interact with AWS services from your terminal. Here’s how to install it:
+
+**Download AWS CLI**:
+
+1. Visit the [Install or update to the latest version of the AWS CLI - AWS Command Line Interface (amazon.com)](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+    
+2. Download the Windows installer (`.msi` file) as shown below.
+    
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726406179155/b4dd85dd-650b-4c59-acda-6ce796f3ac40.png align="center")
+    
+    3. Run the installer and follow the on-screen instructions.
+        
+    4. After installation, open a new Command Prompt and type `aws --version` to check if AWS CLI is installed.
+        
+
+### **Configure AWS CLI**
+
+1. Run `aws configure` in the Command Prompt.
+    
+2. Enter your AWS credentials (Access Key ID and Secret Access Key), along with the default region (e.g., `us-east-1`).
+    
+    ```plaintext
+    aws configure
+    AWS Access Key ID [None]: YOUR_ACCESS_KEY
+    AWS Secret Access Key [None]: YOUR_SECRET_KEY
+    Default region name [None]: us-east-1
+    Default output format [None]: json
+    ```
+    
+    For Access key and secret key ,
+    
+3. Navigate to the IAM (Identity and Access Management) Dashboard.
+    
+4. Create a New IAM User (if needed).
+    
+5. Attach Permissions.
+    
+
+In the next step, you will need to attach permissions to the new user. Choose one of the following options:
+
+* Select **Attach policies directly** and choose **AmazonS3FullAccess** (for S3 access) and any other required policies.
+    
+* Alternatively, select **AdministratorAccess** if you want the user to have full AWS account permissions.
+    
+
+6. Get the Access Key and Secret Key
+    
+    After the user is created, you will see the **Access Key ID** and **Secret Access Key**.
+    
+    **Important**: Save these keys! You will only be shown the **Secret Access Key** once, so copy and store them in a secure place.
+    
+    You can also download the credentials as a `.csv` file by clicking the **Download .csv** button.
+    
+7. Enter the following details when prompted:
+    
+    * **AWS Access Key ID**: Your Access Key ID from the IAM Dashboard.
+        
+    * **AWS Secret Access Key**: Your Secret Access Key from the IAM Dashboard.
+        
+    * **Default region name**: e.g., `us-east-1` (or whichever region you prefer).
+        
+    * **Default output format**: You can choose `json`, `text`, or `table` (default is `json`).
