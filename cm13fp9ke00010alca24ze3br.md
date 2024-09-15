@@ -1,5 +1,5 @@
 ---
-title: "Deploying an Angular App to AWS S3 using Terraform"
+title: "Deploying an Angular App to AWS S3 using Terraform - Part 1"
 datePublished: Sun Sep 15 2024 10:29:24 GMT+0000 (Coordinated Universal Time)
 cuid: cm13fp9ke00010alca24ze3br
 slug: deploying-an-angular-app-to-aws-s3-using-terraform
