@@ -154,3 +154,9 @@ sudo systemctl restart jenkins
 Also update the code with your dockerhub username in place of aasifa.
 
 ## Build the pipeline
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727515908083/71f17e3d-b2aa-49a1-9de7-66bab146c062.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727515945499/d5d4e0fc-4e9d-4394-9e6a-fe999a8583d3.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727516018249/8a868eda-2a8c-423e-9890-ce36e291b3d0.png align="center")
