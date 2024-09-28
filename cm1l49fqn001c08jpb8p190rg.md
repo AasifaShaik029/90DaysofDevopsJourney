@@ -54,4 +54,10 @@ Goto Manage Jenkins → Tools → Install JDK(17) and NodeJs(16)→ Click on App
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727465160707/3454c019-f5fb-490f-b43c-548c070f4f50.png align="center")
 
-### Configuring SonarQube in Jenkins
+## Configuring SonarQube in Jenkins
+
+Create token from sonar and add to jenkins as below.
+
+Sonarqube → Administration → Security → Users → Update Token → Copy the token.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727503918880/c27f9384-2d3e-46b3-9c51-347740ca07a4.png align="center")
