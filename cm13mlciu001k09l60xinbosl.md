@@ -23,6 +23,14 @@ tags: aws-cli, install-awscli
     4. After installation, open a new Command Prompt and type `aws --version` to check if AWS CLI is installed.
         
 
+### Installing in Linux environment
+
+```plaintext
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+```
+
 ### **Configure AWS CLI**
 
 1. Run `aws configure` in the Command Prompt.
