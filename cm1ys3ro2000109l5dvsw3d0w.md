@@ -1,5 +1,5 @@
 ---
-title: "Phase 5 : Deploying Netflix In ArgoCD using EKS"
+title: "Phase 6 : Deploying Netflix In ArgoCD using EKS"
 datePublished: Mon Oct 07 2024 08:57:27 GMT+0000 (Coordinated Universal Time)
 cuid: cm1ys3ro2000109l5dvsw3d0w
 slug: phase-5-deploying-netflix-in-eks
