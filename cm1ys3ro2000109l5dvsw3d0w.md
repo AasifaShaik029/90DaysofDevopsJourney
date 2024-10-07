@@ -1,5 +1,5 @@
 ---
-title: "Phase 5 : Deploying Netflix In EKS"
+title: "Phase 5 : Deploying Netflix In ArgoCD using EKS"
 datePublished: Mon Oct 07 2024 08:57:27 GMT+0000 (Coordinated Universal Time)
 cuid: cm1ys3ro2000109l5dvsw3d0w
 slug: phase-5-deploying-netflix-in-eks
@@ -100,7 +100,7 @@ Now we are able to run the kubectl commands.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728287835889/734604fc-1677-43f2-ad40-10fb80b9f45e.png align="center")
 
-## Step 04 : Install Argo CD
+## Step 02 : Install Argo CD
 
 Go to this site and install argo cd commands.
 
@@ -133,7 +133,7 @@ we created loadbalancer service and it takes bit time to visible in aws.
 
 Once the load balancer is created, we can connect to argocd using DNS, connect to repo and deploy the application.
 
-### Install Helm
+## Step 03 : Install Helm
 
 ```plaintext
 curl https://baltocdn.com/helm/signing.asc | sudo apt-key add -
@@ -143,7 +143,7 @@ sudo apt-get install helm
 helm version
 ```
 
-### Install Node Exporter using Helm
+### Step 04 : Install Node Exporter using Helm
 
 To begin monitoring your Kubernetes cluster, you'll install the Prometheus Node Exporter. This component allows you to collect system-level metrics from your cluster nodes. Here are the steps to install the Node Exporter using Helm:
 
@@ -161,6 +161,8 @@ kubectl get podds -n prometheus-node-exporter
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728289896956/4f3d546b-2cdc-41dc-9633-84d6996f25e2.png align="center")
+
+## Step 05 : Access Argo CD
 
 Get the DNS endpoint using
 
@@ -198,7 +200,7 @@ Go to the repositories and give git project url by keeping default.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728311261519/ab6f2f4f-dfa6-47dc-a787-e825e126d5fa.png align="center")
 
-Create Netflix application
+### Create Netflix application
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728311302422/0eb478e9-391e-4650-9761-2ec0dec2f2c1.png align="center")
 
@@ -212,7 +214,7 @@ Go to the cluster node and edit SG and add 30007 port
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728311418341/e7afafab-cef1-4a43-97af-323d94852f57.png align="center")
 
-Access using node public ip and app port
+### Access using node public ip and app port
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728311184662/b7370efb-abcf-47ae-9529-f226ae83ece2.png align="center")
 
