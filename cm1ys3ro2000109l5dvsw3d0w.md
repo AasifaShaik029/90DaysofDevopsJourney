@@ -143,7 +143,7 @@ sudo apt-get install helm
 helm version
 ```
 
-### Step 04 : Install Node Exporter using Helm
+## Step 04 : Install Node Exporter using Helm
 
 To begin monitoring your Kubernetes cluster, you'll install the Prometheus Node Exporter. This component allows you to collect system-level metrics from your cluster nodes. Here are the steps to install the Node Exporter using Helm:
 
