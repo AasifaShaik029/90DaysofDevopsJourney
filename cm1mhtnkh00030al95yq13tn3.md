@@ -68,7 +68,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/N4si/DevSecOps-Project.git'
+                git branch: 'main', url: 'https://github.com/AasifaShaik029/DevSecOps-Project.git'
             }
         }
         stage("Sonarqube Analysis "){
@@ -125,8 +125,28 @@ pipeline{
                 sh 'docker rm Netflix || true'
                 sh 'docker run -d --name Netflix -p 8081:80 aasifa/netflix:latest'
             }
+          stage('Deploy to kubernets'){
+            steps{
+                script{
+                    dir('Kubernetes') {
+                        withKubeConfig(caCertificate: '', clusterName: '', contextName: '', credentialsId: 'k8s', namespace: '', restrictKubeConfigAccess: false, serverUrl: '') {
+                                sh 'kubectl apply -f deployment.yml'
+                                sh 'kubectl apply -f service.yml'
+                        }   
+                    }
+                }
+            }
         }
+ post {
+     always {
+        emailext attachLog: true,
+            subject: "'${currentBuild.result}'",
+            body: "Project: ${env.JOB_NAME}<br/>" +
+                "Build Number: ${env.BUILD_NUMBER}<br/>" +
+                "URL: ${env.BUILD_URL}<br/>",
+            to: 'aasifa9932@gmail.com',                                
     }
+}
 }
 ```
 
